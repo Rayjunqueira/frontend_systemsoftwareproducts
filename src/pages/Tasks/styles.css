@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.inputContainer {
+    text-align: center;
+}
+
+.inputContainer input {
+    width: 85%;
+    height: 3.5vh;
+    outline: none;
+}
+
+.inputContainer button {
+  margin-left: 3vh;
+  height: 5vh;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.task {
+    flex-grow: 1;
+}
+
+.delete-button,
+.complete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    outline: none; /* Adiciona esta linha para remover a borda azul ao passar o mouse */
+    margin-left: 8px;
+}
+
+.complete-button {
+    background-color: #2ecc71;
+}
+
+.complete-button:hover {
+    transform: scale(1.1);
+    background-color: #2ecc71;
+}
+
+.edit-button {
+    background-color: #ffbd59;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    outline: none; /* Adiciona esta linha para remover a borda azul ao passar o mouse */
+    margin-left: 8px;
+}
+
+.edit-button {
+    background-color: #ffbd59;
+}
+
+.edit-button:hover {
+    transform: scale(1.1);
+    background-color: #ffbd59;
+}
+
+.delete-button:hover { 
+    transform: scale(1.1);
+    background-color: #e74c3c;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}

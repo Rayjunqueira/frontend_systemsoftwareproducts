@@ -1,0 +1,44 @@
+/* SeuArquivoCSS.css */
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* A largura máxima do formulário */
+  margin: 0 auto; /* Centralizar o formulário na tela */
+
+  /* Espaçamento entre os elementos do formulário */
+  gap: 10px;
+}
+
+.product-form label {
+  font-weight: bold;
+}
+
+.product-form select {
+  margin-top: -3px;
+}
+
+.product-form input,
+.product-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: -3px;
+}
+
+.product-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilos adicionais para tornar o formulário responsivo em dispositivos pequenos */
+@media (max-width: 600px) {
+  .product-form {
+    max-width: 100%; /* Ocupa a largura total do dispositivo */
+  }
+}

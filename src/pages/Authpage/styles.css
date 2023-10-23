@@ -1,0 +1,41 @@
+.auth-container {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.auth-login-text h3 {
+    font-size: 4vh;
+    margin-top: 1vh;
+
+}
+
+.inputText {
+    text-align: center;
+    align-items: center;
+    margin-top: 5vh;     
+}
+
+.inputText input {
+    width: 40vh;
+    height: 3.7vh;
+    margin-top: -2vh;
+}
+
+.inputText p {
+    font-size: 1.8vh;
+}
+
+.buttonConfirm {
+    margin-top: 2vh;
+}
+
+.buttonConfirm button {
+    height: 4vh;
+    width: 15vh;
+    cursor: pointer;
+    font-size: 1.5vh;
+    letter-spacing: 0.09rem;
+    background-color: #FFAA2B;
+    color: #fff;
+    border: none;
+}

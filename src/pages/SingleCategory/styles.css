@@ -1,0 +1,57 @@
+.tableCategories {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.category-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.category-table .label {
+  font-weight: bold;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .category-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .category-table td:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .label {
+    font-weight: bold;
+  }
+}
+
+.tableProducts {
+  margin-top: 5vh;
+  margin: 0 1.5vh;
+}
+
+.tableProducts td {
+  cursor: pointer;
+}
+
+.tableProducts tr:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.tableProducts tr:hover {
+  background-color: #f0f0f0; 
+}
+
+.recentProducts {
+  text-align: center;
+}

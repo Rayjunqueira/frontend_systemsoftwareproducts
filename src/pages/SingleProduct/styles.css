@@ -1,0 +1,80 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .product-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .product-table .label {
+    font-weight: bold;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .product-table td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .product-table td:not(:last-child) {
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .label {
+      font-weight: bold;
+    }
+  }
+  
+  .removeEditContainer {
+    text-align: center;
+    margin-top: 1.5vh;
+  }
+  
+  .removeEditContainer button {
+    margin-left: 1vh;
+    width: 15vh;
+    height: 4.5vh;
+    cursor: pointer;
+  }
+  
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+   
+  .pagination button.active {
+    background-color: #FFAA2B;
+    border-color: #FFAA2B;
+    color: #fff;
+  }
+  
+  .pagination button:hover {
+    background-color: #FFAA2B;
+    border-color: #FFAA2B;
+    color: #fff;
+  }
+  
